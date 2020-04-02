@@ -1,12 +1,18 @@
 # Chinese Character Component Reading List
 
+| Content                   |
+| ------------------------- |
+| 1. [Abstract](##Abstract) |
+| 2. [Papers](##Papers)     |
+| 3. [Blogs](##Blogs)       |
+
 ![ccc_pic](./ccc_pic.png)
 
 ## Abstract
 
 汉字不同于其他表音性的文字，其表义的特殊性质为中文词语的分布式表示提供了另外的可能。其中，部件，作为具有组配汉字功能的构字单位，其具有的表义能力又成为汉语字、词级别的嵌入不可忽视的要素。以下文章主要从部件、字、词表示几个角度出发，到分词、词性标注等基础任务，再到文本分类、机器翻译等下游任务，以时间为序，梳理了汉字部件相关的向量表示及具体应用方面的最新研究成果。
 
-## Paper
+## Papers
 
 - 梁诗尘, 唐雪梅, 胡韧奋, 吴金闪, 刘智颖. [基于分布式表示的汉字部件表义能力测量与应用](http://cips-cl.org/static/anthology/CCL-2019/CCL-19-083.pdf). *In Proceedings of CCL 2019*. 
 - Yuxian Meng, Wei Wu, Fei Wang, Xiaoya Li, Ping Nie, Fan Yin, Muyu Li, Qinghong Han, Xiaofei Sun and Jiwei Li. [Glyce: Glyph-vectors for Chinese Character Representations](https://arxiv.org/pdf/1901.10125.pdf). *In Proceedings of NeurIPS 2019*. \[[code](https://github.com/ShannonAI/glyce)].
@@ -23,9 +29,8 @@
 - Yanran Li, Wenjie Li, Fei Sun and Sujian Li. [Component-Enhanced Chinese Character Embeddings](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP098.pdf). *In Proceedings of EMNLP 2015 (short)*.
 - Yaming Sun, Lei Lin, Duyu Tang, Nan Yang, Zhenzhou Ji and Xiaolong Wang. [Radical-Enhanced Chinese Character Embedding](https://arxiv.org/pdf/1404.4714.pdf). *In Proceedings of ICONIP 2014*.
 
-## Blog
+## Blogs
 
 - [中文词向量论文综述（系列）](https://bamtercelboo.github.io/2018/08/16/chinese_embedding_paper_finished/)
 - [cw2vec理论及其实现](https://bamtercelboo.github.io/2018/05/11/cw2vec/) 
 - [汉字结构地图和汉语字词的矢量表示](http://www.bigphysics.org/index.php?title=分类:汉字结构地图和汉语字词的矢量表示&mobileaction=toggle_view_desktop)
-
